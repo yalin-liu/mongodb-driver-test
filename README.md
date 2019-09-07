@@ -1,4 +1,4 @@
-# Node.js Example: Reading MongoDB documents
+# Node.js Example: Counting MongoDB documents
 An example of counting the number of documents in the `restaurant` collection
 
 ## Getting Started
