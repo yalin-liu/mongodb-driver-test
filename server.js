@@ -4,11 +4,10 @@ const ObjectId = require('mongodb').ObjectID;
 const url = '';  // mlab url
 const dbName = ''; // mlab db
 
-
 const countRestaurants = function(db, callback) {
 	var collection = db.collection('restaurant');
 	collection.countDocuments(function(err,count) {
-		assert(null,err);
+		assert.equal(null,err);
 		console.log(`There are ${count} documents in the restuarant collection`);
 	})
 	callback();
@@ -24,6 +23,5 @@ client.connect(function(err) {
 
 	countRestaurants(db, function() {
 		client.close();
-		console.log("Disconnected from server");
 	})
 })
