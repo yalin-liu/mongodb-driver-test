@@ -6,11 +6,11 @@ An example of counting the number of documents in the `restaurant` collection
 2. Change the value of varibale `dbname` in `server.js` to your DB name
 3. You need a collection named `restaurant` with a few documents in it.
 
-### Installing
+## Installing App Dependencies
 ```
 npm install
 ```
-### Running
+### Run App
 ```
 npm start
 ```
