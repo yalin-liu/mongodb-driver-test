@@ -1,8 +1,8 @@
 const MongoClient = require('mongodb').MongoClient;
 const assert = require('assert');
 const ObjectId = require('mongodb').ObjectID;
-const url = '';  // mlab url
-const dbName = ''; // mlab db
+const url = '';  // MongoDB Atlas Connection URL
+const dbName = 'test'; // Database Name
 
 const countRestaurants = function(db, callback) {
 	var collection = db.collection('restaurant');
