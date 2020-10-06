@@ -13,7 +13,7 @@ An example of counting the number of documents in the `restaurant` collection
 ```
 npm install
 ```
-### Run App
+### Run App (and see results)
 ```
 npm start
 ```
