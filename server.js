@@ -5,7 +5,7 @@ const url = '';  // MongoDB Atlas Connection URL
 const dbName = 'test'; // Database Name
 
 const countRestaurants = function(db, callback) {
-	var collection = db.collection('restaurant');
+	var collection = db.collection('restaurants');
 	collection.countDocuments(function(err,count) {
 		assert.equal(null,err);
 		console.log(`There are ${count} documents in the restuarant collection`);
