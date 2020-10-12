@@ -21,7 +21,7 @@ client.connect(function(err) {
 
    const db = client.db(dbName);
 
-	countRestaurants(db, function() {
-		client.close();
-	})
+   countRestaurants(db, function() {
+	client.close();
+   })
 })
